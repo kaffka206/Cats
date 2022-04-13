@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="img/logo.png" type="image/x-icon">
+	<link rel="stylesheet" href="style.css">
+	<script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js"></script>
+	<title>Войдите в учетную запись</title>
+</head>
+<body>
+	<header class="header">
+		<div class="header__box">
+			<div class="header__logo" style="background-image:url(./img/logo.png)"></div>
+			<div class="header__text__button">
+				<button class="header__button-reload">Обновить список Котиков</button>
+				<button class="header__button-add">Добавить Котика</button>
+				<div class="header__contact">Бабуленькины котики</div>
+			</div>
+		</div>
+	</header>
+
+	<main class="main">
+		
+			<section class="auth__container">
+				<form name="auth__form" class="auth__form">
+					<input type="text" name="name" class="auth__form-input" placeholder="Ваше имя">
+					<button type="submit" class="auth__form-btn">Войти</button>
+				</form>
+			</section>
+
+	</main>
+
+	<footer class="footer">
+		<div class="footer__box">
+			<div class="footer__copyright">©2022 All rights reserved</div>
+			
+		</div>
+	</footer>
+	<script defer src="auth.js"></script>
+</body>
+</html>
